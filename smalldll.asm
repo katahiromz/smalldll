@@ -9,7 +9,4 @@ _DllMainCRTStartup proc h:DWORD, r:DWORD, u:DWORD
 	ret
 _DllMainCRTStartup endp
 
-dummy proc
-	ret
-dummy endp
 end

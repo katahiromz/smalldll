@@ -1,2 +1,2 @@
 LIBRARY smalldll64
-EXPORTS dummy
+EXPORTS

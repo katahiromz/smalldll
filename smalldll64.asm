@@ -6,8 +6,4 @@ _DllMainCRTStartup proc h:QWORD, r:DWORD, u:QWORD
 	ret
 _DllMainCRTStartup endp
 
-dummy proc
-	ret
-dummy endp
-
 end
