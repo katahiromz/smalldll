@@ -1,0 +1,192 @@
+Microsoft (R) COFF/PE Dumper Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file loadtest.exe
+
+PE signature found
+
+File Type: EXECUTABLE IMAGE
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        5E32D85A time date stamp Thu Jan 30 22:21:30 2020
+               0 file pointer to symbol table
+               0 number of symbols
+              E0 size of optional header
+             103 characteristics
+                   Relocations stripped
+                   Executable
+                   32 bit word machine
+
+OPTIONAL HEADER VALUES
+             10B magic # (PE32)
+            9.00 linker version
+            7E00 size of code
+            4A00 size of initialized data
+               0 size of uninitialized data
+            131E entry point (0040131E)
+            1000 base of code
+            9000 base of data
+          400000 image base (00400000 to 0040DFFF)
+            1000 section alignment
+             200 file alignment
+            5.00 operating system version
+            0.00 image version
+            5.00 subsystem version
+               0 Win32 version
+            E000 size of image
+             400 size of headers
+               0 checksum
+               3 subsystem (Windows CUI)
+            8000 DLL characteristics
+                   Terminal Server Aware
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+               0 [       0] RVA [size] of Export Directory
+            A6C4 [      28] RVA [size] of Import Directory
+               0 [       0] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+               0 [       0] RVA [size] of Base Relocation Directory
+               0 [       0] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+            A2A0 [      40] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+            9000 [     114] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+    7CF4 virtual size
+    1000 virtual address (00401000 to 00408CF3)
+    7E00 size of raw data
+     400 file pointer to raw data (00000400 to 000081FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60000020 flags
+         Code
+         Execute Read
+
+SECTION HEADER #2
+  .rdata name
+    1CE6 virtual size
+    9000 virtual address (00409000 to 0040ACE5)
+    1E00 size of raw data
+    8200 file pointer to raw data (00008200 to 00009FFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+  Section contains the following imports:
+
+    KERNEL32.dll
+                409000 Import Address Table
+                40A6EC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  14C FreeLibrary
+                  2F1 LoadLibraryA
+                  16F GetCommandLineA
+                   D9 EnterCriticalSection
+                  2EF LeaveCriticalSection
+                  3E8 SetHandleCount
+                  23B GetStdHandle
+                  1D7 GetFileType
+                  239 GetStartupInfoA
+                   BE DeleteCriticalSection
+                  42D TerminateProcess
+                  1A9 GetCurrentProcess
+                  43E UnhandledExceptionFilter
+                  415 SetUnhandledExceptionFilter
+                  2D1 IsDebuggerPresent
+                  1F9 GetModuleHandleW
+                  421 Sleep
+                  220 GetProcAddress
+                  104 ExitProcess
+                  48D WriteFile
+                  1F4 GetModuleFileNameA
+                  14A FreeEnvironmentStringsA
+                  1BF GetEnvironmentStrings
+                  14B FreeEnvironmentStringsW
+                  47A WideCharToMultiByte
+                  1E6 GetLastError
+                  1C1 GetEnvironmentStringsW
+                  434 TlsGetValue
+                  432 TlsAlloc
+                  435 TlsSetValue
+                  433 TlsFree
+                  2C0 InterlockedIncrement
+                  3EC SetLastError
+                  1AD GetCurrentThreadId
+                  2BC InterlockedDecrement
+                  29F HeapCreate
+                  457 VirtualFree
+                  2A1 HeapFree
+                  354 QueryPerformanceCounter
+                  266 GetTickCount
+                  1AA GetCurrentProcessId
+                  24F GetSystemTimeAsFileTime
+                  3DF SetFilePointer
+                  183 GetConsoleCP
+                  195 GetConsoleMode
+                  2B5 InitializeCriticalSectionAndSpinCount
+                  392 RtlUnwind
+                  15B GetCPInfo
+                  152 GetACP
+                  213 GetOEMCP
+                  2DB IsValidCodePage
+                  29D HeapAlloc
+                  454 VirtualAlloc
+                  2A4 HeapReAlloc
+                  141 FlushFileBuffers
+                  3FC SetStdHandle
+                  482 WriteConsoleA
+                  199 GetConsoleOutputCP
+                  48C WriteConsoleW
+                  31A MultiByteToWideChar
+                  2A6 HeapSize
+                  1E8 GetLocaleInfoA
+                  2E1 LCMapStringA
+                  2E3 LCMapStringW
+                  23D GetStringTypeA
+                  240 GetStringTypeW
+                   43 CloseHandle
+                   78 CreateFileA
+
+SECTION HEADER #3
+   .data name
+    2AC8 virtual size
+    B000 virtual address (0040B000 to 0040DAC7)
+    1000 size of raw data
+    A000 file pointer to raw data (0000A000 to 0000AFFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0000040 flags
+         Initialized Data
+         Read Write
+
+  Summary
+
+        3000 .data
+        2000 .rdata
+        8000 .text
