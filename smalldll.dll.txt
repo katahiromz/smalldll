@@ -11,7 +11,7 @@ File Type: DLL
 FILE HEADER VALUES
              14C machine (x86)
                1 number of sections
-        5E33528B time date stamp Fri Jan 31 07:02:51 2020
+        5E335ACE time date stamp Fri Jan 31 07:38:06 2020
                0 file pointer to symbol table
                0 number of symbols
               E0 size of optional header
@@ -26,18 +26,18 @@ OPTIONAL HEADER VALUES
               10 size of code
                0 size of initialized data
                0 size of uninitialized data
-             1E0 entry point (100001E0)
-             1E0 base of code
-             1F0 base of data
-        10000000 image base (10000000 to 100001EF)
+             1A0 entry point (100001A0)
+             1A0 base of code
+             1B0 base of data
+        10000000 image base (10000000 to 100001AF)
               10 section alignment
               10 file alignment
             5.00 operating system version
             0.00 image version
             5.00 subsystem version
                0 Win32 version
-             1F0 size of image
-             1E0 size of headers
+             1B0 size of image
+             1A0 size of headers
                0 checksum
                2 subsystem (Windows GUI)
                0 DLL characteristics
@@ -68,9 +68,9 @@ OPTIONAL HEADER VALUES
 SECTION HEADER #1
    .text name
        C virtual size
-     1E0 virtual address (100001E0 to 100001EB)
+     1A0 virtual address (100001A0 to 100001AB)
       10 size of raw data
-     1E0 file pointer to raw data (000001E0 to 000001EF)
+     1A0 file pointer to raw data (000001A0 to 000001AF)
        0 file pointer to relocation table
        0 file pointer to line numbers
        0 number of relocations
