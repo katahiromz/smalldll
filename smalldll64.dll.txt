@@ -10,8 +10,8 @@ File Type: DLL
 
 FILE HEADER VALUES
             8664 machine (x64)
-               2 number of sections
-        5E32DB5B time date stamp Thu Jan 30 22:34:19 2020
+               1 number of sections
+        5E32DDA8 time date stamp Thu Jan 30 22:44:08 2020
                0 file pointer to symbol table
                0 number of symbols
               F0 size of optional header
@@ -24,19 +24,19 @@ OPTIONAL HEADER VALUES
              20B magic # (PE32+)
            11.00 linker version
              200 size of code
-             200 size of initialized data
+               0 size of initialized data
                0 size of uninitialized data
             1000 entry point (0000000180001000)
             1000 base of code
-       180000000 image base (0000000180000000 to 0000000180002FFF)
+       180000000 image base (0000000180000000 to 0000000180001FFF)
             1000 section alignment
              200 file alignment
             6.00 operating system version
             0.00 image version
             6.00 subsystem version
                0 Win32 version
-            3000 size of image
-             400 size of headers
+            2000 size of image
+             200 size of headers
                0 checksum
                2 subsystem (Windows GUI)
              160 DLL characteristics
@@ -49,7 +49,7 @@ OPTIONAL HEADER VALUES
             1000 size of heap commit
                0 loader flags
               10 number of directories
-            2000 [      37] RVA [size] of Export Directory
+            1010 [      37] RVA [size] of Export Directory
                0 [       0] RVA [size] of Import Directory
                0 [       0] RVA [size] of Resource Directory
                0 [       0] RVA [size] of Exception Directory
@@ -69,10 +69,10 @@ OPTIONAL HEADER VALUES
 
 SECTION HEADER #1
    .text name
-       D virtual size
-    1000 virtual address (0000000180001000 to 000000018000100C)
+      47 virtual size
+    1000 virtual address (0000000180001000 to 0000000180001046)
      200 size of raw data
-     400 file pointer to raw data (00000400 to 000005FF)
+     200 file pointer to raw data (00000200 to 000003FF)
        0 file pointer to relocation table
        0 file pointer to line numbers
        0 number of relocations
@@ -81,24 +81,10 @@ SECTION HEADER #1
          Code
          Execute Read
 
-SECTION HEADER #2
-  .rdata name
-      37 virtual size
-    2000 virtual address (0000000180002000 to 0000000180002036)
-     200 size of raw data
-     600 file pointer to raw data (00000600 to 000007FF)
-       0 file pointer to relocation table
-       0 file pointer to line numbers
-       0 number of relocations
-       0 number of line numbers
-40000040 flags
-         Initialized Data
-         Read Only
-
   Section contains the following exports for smalldll64.dll
 
     00000000 characteristics
-    5E32DB5B time date stamp Thu Jan 30 22:34:19 2020
+    5E32DDA8 time date stamp Thu Jan 30 22:44:08 2020
         0.00 version
            1 ordinal base
            0 number of functions
@@ -109,5 +95,4 @@ SECTION HEADER #2
 
   Summary
 
-        1000 .rdata
         1000 .text
