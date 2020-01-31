@@ -2,3 +2,5 @@
 
 - `smalldll.dll` --- 384 bytes.
 - `smalldll64.dll` --- 400 bytes.
+
+This DLL file has hopeful future.
