@@ -10,7 +10,7 @@ This DLL file has hopeful future.
 ## Features
 
 - Never detected as positive (Important!).
-- Windows 2000/XP/Vista/10 supported.
+- Windows 2000/XP/Vista/7/10 supported.
 - Correctly loaded.
 - Perfectly empty.
 
