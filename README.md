@@ -1,9 +1,9 @@
-# smalldll --- The Empty Smallest DLL File
+# smalldll &mdash; The Empty Smallest DLL File
 
 ## File size
 
-- `smalldll.dll` --- 375 bytes.
-- `smalldll64.dll` --- 391 bytes.
+- `smalldll.dll` &mdash; 375 bytes.
+- `smalldll64.dll` &mdash; 391 bytes.
 
 This DLL file has hopeful future.
 
